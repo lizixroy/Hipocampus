@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0FD66C31E7F499100091A25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD66C21E7F499100091A25 /* main.m */; };
+		B0FD66C61E7F499100091A25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD66C51E7F499100091A25 /* AppDelegate.m */; };
+		B0FD66C91E7F499100091A25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD66C81E7F499100091A25 /* ViewController.m */; };
+		B0FD66CC1E7F499100091A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FD66CA1E7F499100091A25 /* Main.storyboard */; };
+		B0FD66CE1E7F499100091A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0FD66CD1E7F499100091A25 /* Assets.xcassets */; };
+		B0FD66D11E7F499100091A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FD66CF1E7F499100091A25 /* LaunchScreen.storyboard */; };
+		B0FD66DC1E7F499100091A25 /* HipocampusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD66DB1E7F499100091A25 /* HipocampusTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0FD66D81E7F499100091A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0FD66B61E7F499100091A25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0FD66BD1E7F499100091A25;
+			remoteInfo = Hipocampus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0FD66BE1E7F499100091A25 /* Hipocampus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hipocampus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FD66C21E7F499100091A25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0FD66C41E7F499100091A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0FD66C51E7F499100091A25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0FD66C71E7F499100091A25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0FD66C81E7F499100091A25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0FD66CB1E7F499100091A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0FD66CD1E7F499100091A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0FD66D01E7F499100091A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0FD66D21E7F499100091A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0FD66D71E7F499100091A25 /* HipocampusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HipocampusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FD66DB1E7F499100091A25 /* HipocampusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HipocampusTests.m; sourceTree = "<group>"; };
+		B0FD66DD1E7F499100091A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0FD66BB1E7F499100091A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FD66D41E7F499100091A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0FD66B51E7F499100091A25 = {
+			isa = PBXGroup;
+			children = (
+				B0FD66C01E7F499100091A25 /* Hipocampus */,
+				B0FD66DA1E7F499100091A25 /* HipocampusTests */,
+				B0FD66BF1E7F499100091A25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0FD66BF1E7F499100091A25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD66BE1E7F499100091A25 /* Hipocampus.app */,
+				B0FD66D71E7F499100091A25 /* HipocampusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0FD66C01E7F499100091A25 /* Hipocampus */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD66C41E7F499100091A25 /* AppDelegate.h */,
+				B0FD66C51E7F499100091A25 /* AppDelegate.m */,
+				B0FD66C71E7F499100091A25 /* ViewController.h */,
+				B0FD66C81E7F499100091A25 /* ViewController.m */,
+				B0FD66CA1E7F499100091A25 /* Main.storyboard */,
+				B0FD66CD1E7F499100091A25 /* Assets.xcassets */,
+				B0FD66CF1E7F499100091A25 /* LaunchScreen.storyboard */,
+				B0FD66D21E7F499100091A25 /* Info.plist */,
+				B0FD66C11E7F499100091A25 /* Supporting Files */,
+			);
+			path = Hipocampus;
+			sourceTree = "<group>";
+		};
+		B0FD66C11E7F499100091A25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD66C21E7F499100091A25 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0FD66DA1E7F499100091A25 /* HipocampusTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD66DB1E7F499100091A25 /* HipocampusTests.m */,
+				B0FD66DD1E7F499100091A25 /* Info.plist */,
+			);
+			path = HipocampusTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0FD66BD1E7F499100091A25 /* Hipocampus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0FD66E01E7F499100091A25 /* Build configuration list for PBXNativeTarget "Hipocampus" */;
+			buildPhases = (
+				B0FD66BA1E7F499100091A25 /* Sources */,
+				B0FD66BB1E7F499100091A25 /* Frameworks */,
+				B0FD66BC1E7F499100091A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hipocampus;
+			productName = Hipocampus;
+			productReference = B0FD66BE1E7F499100091A25 /* Hipocampus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0FD66D61E7F499100091A25 /* HipocampusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0FD66E31E7F499100091A25 /* Build configuration list for PBXNativeTarget "HipocampusTests" */;
+			buildPhases = (
+				B0FD66D31E7F499100091A25 /* Sources */,
+				B0FD66D41E7F499100091A25 /* Frameworks */,
+				B0FD66D51E7F499100091A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0FD66D91E7F499100091A25 /* PBXTargetDependency */,
+			);
+			name = HipocampusTests;
+			productName = HipocampusTests;
+			productReference = B0FD66D71E7F499100091A25 /* HipocampusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0FD66B61E7F499100091A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Genuine;
+				TargetAttributes = {
+					B0FD66BD1E7F499100091A25 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					B0FD66D61E7F499100091A25 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B0FD66BD1E7F499100091A25;
+					};
+				};
+			};
+			buildConfigurationList = B0FD66B91E7F499100091A25 /* Build configuration list for PBXProject "Hipocampus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0FD66B51E7F499100091A25;
+			productRefGroup = B0FD66BF1E7F499100091A25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0FD66BD1E7F499100091A25 /* Hipocampus */,
+				B0FD66D61E7F499100091A25 /* HipocampusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0FD66BC1E7F499100091A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FD66D11E7F499100091A25 /* LaunchScreen.storyboard in Resources */,
+				B0FD66CE1E7F499100091A25 /* Assets.xcassets in Resources */,
+				B0FD66CC1E7F499100091A25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FD66D51E7F499100091A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0FD66BA1E7F499100091A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FD66C91E7F499100091A25 /* ViewController.m in Sources */,
+				B0FD66C61E7F499100091A25 /* AppDelegate.m in Sources */,
+				B0FD66C31E7F499100091A25 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FD66D31E7F499100091A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FD66DC1E7F499100091A25 /* HipocampusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0FD66D91E7F499100091A25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0FD66BD1E7F499100091A25 /* Hipocampus */;
+			targetProxy = B0FD66D81E7F499100091A25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0FD66CA1E7F499100091A25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0FD66CB1E7F499100091A25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0FD66CF1E7F499100091A25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0FD66D01E7F499100091A25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0FD66DE1E7F499100091A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0FD66DF1E7F499100091A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0FD66E11E7F499100091A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hipocampus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Genuine.Hipocampus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0FD66E21E7F499100091A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hipocampus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Genuine.Hipocampus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B0FD66E41E7F499100091A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HipocampusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Genuine.HipocampusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hipocampus.app/Hipocampus";
+			};
+			name = Debug;
+		};
+		B0FD66E51E7F499100091A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HipocampusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Genuine.HipocampusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hipocampus.app/Hipocampus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0FD66B91E7F499100091A25 /* Build configuration list for PBXProject "Hipocampus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FD66DE1E7F499100091A25 /* Debug */,
+				B0FD66DF1E7F499100091A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0FD66E01E7F499100091A25 /* Build configuration list for PBXNativeTarget "Hipocampus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FD66E11E7F499100091A25 /* Debug */,
+				B0FD66E21E7F499100091A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0FD66E31E7F499100091A25 /* Build configuration list for PBXNativeTarget "HipocampusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FD66E41E7F499100091A25 /* Debug */,
+				B0FD66E51E7F499100091A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0FD66B61E7F499100091A25 /* Project object */;
+}
